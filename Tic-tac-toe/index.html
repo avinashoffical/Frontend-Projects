@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="layout-container">
+      <div class="heading">
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+
+      <!-- Choose Symbol -->
+      <div class="choose-symbol">
+        <p>Choose your symbol:</p>
+        <div class="btn-container">
+          <button class="chose-o">O</button>
+          <button class="chose-x">X</button>
+        </div>
+      </div>
+
+      <!-- Show Choices -->
+      <div class="show-choice hide">
+        <div>
+          <p>Player 1 : <span class="player1-choice">X</span></p>
+          <p>P1 : <span class="score-p1"></span></p>
+        </div>
+        <div>
+          <p>Player 2 : <span class="player2-choice">O</span></p>
+          <p>P2 : <span class="score-p2"></span></p>
+        </div>
+      </div>
+
+      <!-- Game Boarad -->
+      <div class="container hide">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+
+      <!-- Result -->
+      <div class="result-container hide">
+        <p class="result-msg">winner</p>
+      </div>
+
+      <!-- Buttons -->
+      <div class="resnew-btn-container hide">
+        <button class="resetgame-btn">Reset Game</button>
+        <button class="newgame-btn">New Game</button>
+      </div>
+
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
