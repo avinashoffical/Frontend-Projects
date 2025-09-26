@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calstyle.css">
+    <script src="calscript.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="navbar-div">
+            <h1 class="cal">Calculator</h1>
+        </div>
+        <div class="input-div">
+            <input type="text" class="display" readonly>
+        </div>
+        <div class="calculator-keys">
+            <button class="memory" onclick="memoryRecall()">MR</button>
+            <button class="memory" onclick="memoryClear()">MC</button>
+            <button class="memory" onclick="memoryAdd()">M+</button>
+            <button  class="memory" onclick="memorySubtract()">M-</button>
+            <button class="clear" onclick="clearEntry()">C</button>
+           
+            <button class="number" onclick="appendValue('7')">7</button>
+            <button class="number" onclick="appendValue('8')">8</button>
+            <button class="number" onclick="appendValue('9')">9</button>
+            <button class="operator" onclick="squareRoot()">√</button>
+            <button class="clear-all" onclick="clearAll()">CE</button>
+
+            <button class="number" onclick="appendValue('4')">4</button>
+            <button class="number" onclick="appendValue('5')">5</button>
+            <button class="number" onclick="appendValue('6')">6</button>
+            <button class="operator" onclick="appendValue('')">(</button>
+            <button class="operator"onclick="appendValue('')">)</button>
+            
+            <button class="number" onclick="appendValue('1')">1</button>
+            <button class="number" onclick="appendValue('2')">2</button>
+            <button class="number" onclick="appendValue('3')">3</button>
+            <button class="operator" onclick="appendValue('-')">-</button>
+            <button class="operator" onclick="appendValue('/')">/</button>            
+                        
+            <button class="operator" onclick="toggleSign()">±</button>
+            <button class="number" onclick="appendValue('0')">0</button>
+            <button class="operator" onclick="appendValue('.')">.</button>
+            <button class="operator" onclick="appendValue('+')">+</button>
+            <button class="operator" onclick="appendValue('*')">*</button>
+            
+
+            <button class="result" onclick="calculateResult()">=</button>
+            <!-- <button class="tasfer-display">Transfer to Display</button> -->
+        </div>
+    </div>
+</body>
+</html>
