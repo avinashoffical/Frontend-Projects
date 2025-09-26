@@ -90,10 +90,16 @@ img {
   min-height: 14vh;
 }
 
-.logo {
+.logo-danka {
   font-size: 2rem;
   font-weight: bold;
   color: var(--gold-finger);
+}
+
+.logo-panipuri {
+  font-size: 2rem;
+  font-weight: bold;
+  color: green;
 }
 
 .btn {
@@ -139,7 +145,7 @@ img {
   display: none;
 }
 
-/* Section styling */
+/* Body styling */
 /* Hero Section */
 .hero-section {
   min-height: calc(100vh-14vh);
@@ -190,6 +196,7 @@ p {
   color: var(--pure-white);
 }
 
+/* Main Section */
 /* Section 1 */
 h5 {
   font-size: 1.2rem;
@@ -228,6 +235,8 @@ h3 {
 
 .order-card img {
   width: 15rem;
+  height: 15rem;
+  padding: 2rem 2rem;
   filter: drop-shadow(rgba(0, 0, 0, 0.2) 0 10px 10px);
 }
 
